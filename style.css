@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+width: 100%;
+height:75px;
+background-color:white;
+color:black;
+display: flex;
+justify-content: space-between;
+text-decoration: none;
+padding:0px 20px;
+box-shadow: 5px 5px 5px rgb(230, 214, 214);
+
+}
+#logo{
+    width: 100px;
+    height: 70px;
+    border: 1px solid white;
+    background-image: url("./image/free-delivery-truck-free-shipping-label-vector-illustration-47013972.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* object-fit: contain; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    
+}
+nav ul{
+list-style: none;
+display: flex;
+margin-top: 10px;
+padding-top: 15px;
+}
+nav ul li a{
+color:black;
+text-decoration: none;
+text-transform: uppercase;
+padding: 10px 20px;
+}
+nav ul li a:hover{
+/* background-color: white; */
+color: red;
+border-radius: 20px;
+}
+#service{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 200px;
+    font-size: 25px;
+    text-align: center;
+}
+p{
+    margin-top: 20px;
+    width: 1000px;
+    text-align: center;
+    margin-left: 250px;
+}
+.container1{
+    width:100%;
+    height:600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-top: 30px; */
+   
+}
+
+.Box1{
+    width:400px;
+    height: 500px;
+    box-shadow: 10px 10px 10px rgb(244, 233, 233);
+    
+}
+
+footer{
+    width:100%;
+    height:50px;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p{
+    padding-bottom: 10px;
+}
+.image{
+    width: 400px;
+    height: 300px;
+    /* border: 1px solid black; */
+
+}
+h3{
+    margin-top: 10px;
+
+}
+.link{
+    color: red;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.text{
+    padding: 20px;
+    
+}
+#box1 .image{
+    background-image: url("./image/cargo-ship-png-hd-container-ship-600.png");
+        /* display: block; */
+    background-repeat: no-repeat;
+    /* object-position: 100%; */
+    /* object-fit: fill; */
+    
+    background-size: cover;
+    /* background-position: 450px; */
+    
+    
+}
+#box2 .image{
+    background-image: url("./image/WhatsApp\ Image\ 2022-07-11\ at\ 7.03.56\ PM\ \(1\).jpeg");
+    
+    background-repeat: no-repeat;
+    /* object-position: 100%; */
+    object-fit: scale-down;
+    object-fit: contain;
+    background-size: cover;
+    /* background-position: 450px; */
+}
+#box3 .image{
+    background-image: url("./image/smartroad-gotland-fully-electric-40-ton-truck-dynamic-wireless-charging-source-green-car-congress.jpg");
+    background-repeat: no-repeat;
+    object-position: 100%;
+    object-fit: cover;
+    background-size: cover;
+}
