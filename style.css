@@ -135,6 +135,8 @@ h3{
     background-size: cover;
 }
 .material-symbols-outlined{
-    color: red;
+    
+    background-color: red;
+    color: rgb(239, 238, 238);
     font-weight: bolder;
 }
