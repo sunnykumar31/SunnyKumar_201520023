@@ -16,15 +16,12 @@ box-shadow: 5px 5px 5px rgb(230, 214, 214);
 
 }
 #logo{
-    width: 100px;
+    width: 150px;
     height: 70px;
-    border: 1px solid white;
     background-image: url("./image/free-delivery-truck-free-shipping-label-vector-illustration-47013972.jpg");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    /* object-fit: contain; */
-    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,4 +133,8 @@ h3{
     object-position: 100%;
     object-fit: cover;
     background-size: cover;
+}
+.material-symbols-outlined{
+    color: red;
+    font-weight: bolder;
 }
